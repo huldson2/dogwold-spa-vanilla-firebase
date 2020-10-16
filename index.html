@@ -2,9 +2,10 @@
 <html lang="pt-br">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <title>Dog World</title>
 </head>
@@ -12,6 +13,18 @@
 <body>
 
     <div class="wrap">
+
+        <!-- Aceite dos termos de serviço, conforme LGPD - LEI Nº 13.709, DE 14 DE AGOSTO DE 2018 -->
+        <div id="terms">
+            <div>
+                <p>Para que você tenha a melhor experiência de navegação possível neste aplicativo, precisamos armazenar algumas informações em seu computador na forma de <strong>cookies</strong>. Nenhuma informação sensível ou sigilosa será armazenada,
+                    apenas dados de navegação e de controle.</p>
+                <p class="terms-btn">
+                    <button class="terms" name="accept">Aceitar</button>
+                    <button class="terms" name="reject">Rejeitar</button>
+                </p>
+            </div>
+        </div>
 
          <header>
             <a routerLink="home"><i class="fas fa fw fa-dog"></i></a>
@@ -27,15 +40,53 @@
             <a routerLink="about"><i class="fas fa fw fa-info-circle"></i> <span>Sobre</span></a>
         </nav>
 
-        <footer>&copy; Copyright 2020 Huldson Rodrigues</footer>
+        <main>
+            <noscript>Ative o JavaScript no navegador para aproveitar ao máximo os recursos deste site!</noscript>
 
 
+            <!-- REMOVER - Conteúdo para testes -->
 
+            <div class="content">
+                <h2>Conteúdo de Teste</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minus hic aliquam eligendi delectus, eveniet, explicabo blanditiis et est iste maxime dolor molestiae quidem natus, inventore consequuntur quia quasi sequi!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minus hic aliquam eligendi delectus, eveniet, explicabo blanditiis et est iste maxime dolor molestiae quidem natus, inventore consequuntur quia quasi sequi!</p>
+                <ul>
+                    <li><a href="http://omundocanino.ml/" target="_blank">&uarr; Site o mundo canino</a></li>
+                    <li><a href="https://www.google.com">&rarr; Site de pesquisa</a></li>
+                </ul>
+                <p><button routerLink="teste/valorx/valory/valorz">Clique-me</button></p>
+            </div>
+            <aside>
+                <h3>SideBar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </aside>
+
+            <!-- REMOVER - Conteúdo para testes -->
+
+
+        </main>
+
+        <footer>
+            <a routerLink="home"><i class="fas fa-fw fa-home"></i></a>
+            <div class="social">
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-fw fa-facebook-square"></i></a>
+                <a href="https://youtube.com/" target="_blank"><i class="fab fa-fw fa-youtube-square"></i></a>
+                <a href="https://GitHub.com/" target="_blank"><i class="fab fa-fw fa-github-square"></i></a>
+                <a href="https://Linkedin.com/" target="_blank"><i class="fab fa-fw fa-linkedin"></i></a>
+            </div>
+            <div class="copyright">&copy; Copyright 2020 Huldson Rodrigues</div>
+        </footer>
 
     </div>
 
+    <!-- Importa framework jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/js/main.js"></script>
+
+    <!-- Biblioteca de manipulação de cookies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+    <!-- JavaScript do aplicativo -->
+    <script src="js/main.js"></script>
 
 </body>
 
