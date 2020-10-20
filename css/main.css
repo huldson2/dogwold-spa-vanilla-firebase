@@ -1,5 +1,5 @@
 :root{
-    --html-background: url("") #233237;
+    --html-background: url("../img/dog\ space.png") #233237;
     --body-background: rgba(0, 0, 0, 0.6);
     --body-font-family: sans-serif;
     --a-color: steelblue;
@@ -62,7 +62,6 @@ a:hover {
 
 /* Estrutura do template*/
 .wrap {
-    background: palegoldenrod;
     width: 100%;
     max-width: 960px;
     min-width: 300px;
@@ -72,10 +71,7 @@ a:hover {
     flex-direction: column;
     padding: 0.4rem;
 }
-main {
-    flex-grow: 1;
-    background: #fff;
-}
+
 
 header,
 main,
@@ -303,4 +299,29 @@ aside {
         max-width: 200px;
         padding: 1rem;
     }
+}
+
+button.primary {
+    font-family: inherit;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+button.primary {
+    background: linear-gradient(rgb(31, 70, 102), rgb(103, 164, 214));
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.primary:hover {
+    background: linear-gradient(rgb(170, 45, 0), rgb(246, 125, 81));
+}
+
+button.block {
+    display: block;
+    width: 95%;
+    margin: auto;
 }
