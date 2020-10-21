@@ -6,7 +6,7 @@ $(document).ready(main);
 /* Declara variáveis globais */
 
 // (*3) Nome do site para a tag <title>
-var siteName = 'Spider Track';
+var siteName = 'Dog World';
 
 // Se não aceita cookies, vai para este site
 var termsRedirect = 'http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm';
